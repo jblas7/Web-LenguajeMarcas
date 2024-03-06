@@ -9,7 +9,7 @@ body, html {
     height: 100%;
 }
 
-header, footer {
+header {
     background-color: lightgray;
     padding: 10px;
     text-align: center;
@@ -82,4 +82,53 @@ header, footer {
 .pasarela-pago img {
     width: 50px;
     margin-left: 10px;
+}
+.rrss-img{
+    width: 30px;
+    height: 30px;
+    flex-direction: row;
+}
+
+footer{
+    border-top: 4px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-inline: 5px;
+    max-height: fit-content;
+    margin-top: 30px;
+}
+
+.twiteer{
+    padding-top: 9px;
+    padding-right: 25px;
+}
+
+.facebook{
+    padding-top: 9px;
+    padding-right: 25px;
+
+}
+
+.linkedin{
+    padding-top: 9px;
+    padding-right: 25px;
+
+}
+
+.instagram{
+    padding-top: 9px;
+    padding-right: 25px;
+
+}
+
+.texto{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
 }
