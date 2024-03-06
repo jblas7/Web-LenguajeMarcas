@@ -19,24 +19,22 @@ header, footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start; /* Alinea los elementos en la parte superior */
     height: 100%;
 }
 
 .titulo {
     text-align: left;
-    margin-left: 20px;
+    color: rgb(46, 150, 219); 
+    -webkit-text-stroke: 1px black; 
 }
 
-.main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-}
 
 .imagenes {
-    margin-bottom: 20px;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+
 }
 
 .imagenes div {
@@ -45,6 +43,13 @@ header, footer {
     align-items: center;
 }
 
+.nombre-zapatillas {
+    border: 1px solid gray;
+    align-items: center;
+    margin: 10px;
+   /* width: 20px; */
+    
+}
 .input {
     display: flex;
     align-items: center;
@@ -55,20 +60,23 @@ header, footer {
 .promo-code {
     flex: 1;
     margin-right: 10px;
-}
+    height: 100%;
 
+}
 .importes {
-    width: 100%;
     border: 1px solid gray;
     padding: 10px;
-    margin-bottom: 20px;
     text-align: right;
+    align-self: flex-start; /* Alinea el elemento en la parte superior */
+    margin-left: 75%;
+    margin-bottom: 80%;
 }
+
 
 .pasarela-pago {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
 }
 
 .pasarela-pago img {

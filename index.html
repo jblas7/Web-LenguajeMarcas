@@ -14,20 +14,25 @@
         <div class="titulo">
             <h1>Mi Carrito</h1>
         </div>
-        <div class="main-content">
             <div class="imagenes">
                 <div>
                     <img src="imagenes/imagen1.jpg" alt="Imagen 1">
-                    <div>Zapatillas personalizada Nike air version Morada 20€</div>
+                    <div class="nombre-zapatillas">Zapatillas personalizada Nike air version Morada 20€</div>
                 </div>
                 <div>
                     <img src="imagenes/imagen2.jpg" alt="Imagen 2">
-                    <div>Zapatillas personalizada Nike air version Verde 20€</div>
+                    <div class="nombre-zapatillas">Zapatillas personalizada Nike air version Verde 20€</div>
                 </div>
             </div>
-            <div class="input">
-                <input type="text" class="promo-code" placeholder="PromoCode">
-                <button>Enter</button>
+            <div class="promo-code">
+                <p>Ingresar Codigo Promocional</p>
+                <div class="input">
+                    <input type="text" placeholder="PromoCode">
+                    <button>Enter</button>
+                </div>
+            </div>    
+            <div class="titulo-compras">
+                <p> Resumen del pedido</p>
             </div>
             <div class="importes">
                 <p>Resumen del pedido</p>
@@ -37,17 +42,20 @@
                     <p>Total: 30€</p>
                     <p>Metodos de pago</p>
                 </div>
-            
                 <div class="pasarela-pago">
                     <div class="payment-method">
-                        <img src="imagenes/credito-logo.png" alt="Tarjeta">
+                        <a href="http://www.ibercaja.com/" title="Link al banco (ejemplo)">
+                            <img alt="Tarjeta" src="imagenes/credito-logo.png">
+                        </a>                   
                     </div>
                     <div class="payment-method">
-                        <img src="imagenes/paypal-logo.png" alt="PayPal">
+                        <a href="http://www.paypal.com/" title="PayPal Link">
+                            <img alt="Tarjeta" src="imagenes/paypal-logo.png" />
+                        </a>                   
                     </div>
+                    <p> Finalizar compra</p> <!-- integrar botón -->
                 </div>
             </div>    
-        </div>
     </div>
     <footer>
         FOOTER EN DESARROLLO
