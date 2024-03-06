@@ -1,0 +1,77 @@
+/* POR HACER
+Repartir mejor el espacio de pantalla con el flex
+Ampliar tamaño y dar formato al texto
+Integrar el header y footer cuando esten terminados, ya que son comunes en todas las paginas de la web
+Añadir enlaces genericos como paypal.com para simular mejor una web funcional real*/
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header, footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.titulo {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.imagenes {
+    margin-bottom: 20px;
+}
+
+.imagenes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.promo-code {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.importes {
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.pasarela-pago {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.pasarela-pago img {
+    width: 50px;
+    margin-left: 10px;
+}
