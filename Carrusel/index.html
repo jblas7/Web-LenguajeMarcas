@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carrusel/Galería</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css"> <!-- Agregamos el archivo CSS externo -->
+</head>
+<body>
+
+<div class="container">
+    <br>
+    <div id="elCarrusel" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores -->
+        <ol class="carousel-indicators">
+            <li data-target="#elCarrusel" data-slide-to="0" class="active"></li>
+            <li data-target="#elCarrusel" data-slide-to="1"></li>
+            <li data-target="#elCarrusel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="Imagenes/CamiRojaM.PNG" alt="Imagen 1">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="Imagenes/CamiAzulM.PNG" alt="Imagen 2">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="Imagenes/CamiVerdeM.PNG" alt="Imagen 3">
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Steach and Step</h3>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="Imagenes/CamiNegraRojaW.PNG" alt="Imagen 4">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="Imagenes/CamiNegraAzulW.PNG" alt="Imagen 5">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="Imagenes/CamiNegraVerdeW.PNG" alt="Imagen 6">
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="Imagenes/DiseñoRojo.PNG" alt="Imagen 7">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="Imagenes/DiseñoAzul.PNG" alt="Imagen 8">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="Imagenes/DiseñoVerde.PNG" alt="Imagen 9">
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+            <!-- Agrega más secciones según sea necesario -->
+
+        </div>
+
+        <a class="left carousel-control" href="#elCarrusel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="right carousel-control" href="#elCarrusel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
