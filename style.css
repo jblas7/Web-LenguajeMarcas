@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.header-barra {
+    background-color: rgb(199, 194, 194);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.header-barra .logo-header img {
+    height: 70px; 
+    width: auto; 
+}
+
+.iconos-header img {
+    height: 50px; 
+    width: auto; 
+}
+
+.navlinks {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.header-barra .navlinks li a {
+    color: black;
+    text-decoration: none;
+}
+.header-barra .navlinks li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header-barra .buscador-nav {
+    width: 500px;
+    height: 50px;
+    margin-left: 130px; 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px; 
+}
+
+.iconos-header img{
+    margin-left: 50px
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    height: 100%;
+}
+
+.titulo-carrito {
+    align-self: flex-start;
+    text-align: left;
+    color: rgb(46, 150, 219); 
+    -webkit-text-stroke: 1px black; 
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 120px;
+}
+
+.imagenes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 70px; 
+}
+
+
+.imagenes div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.nombre-zapatillas {
+    border: 1px solid gray;
+    padding: 10px; 
+    height: 150px;
+    width: 600px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.precio-zapatillas{
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.promo-code {
+    position: absolute;
+    left: 300px;
+    top: 850px;
+    width: 400px;
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.promo-content {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+    size: 30px;
+}
+.input-promo input {
+    flex: 1;
+    height: 50px; 
+    font-size: 30px; 
+    padding: 5px;
+    text-align: center;
+    border-radius: 0; 
+    border: 2px solid black; 
+}
+.promo-content img {
+    margin-right: 10px; 
+    width: 30px;
+    height: 30px;
+}
+
+.input-promo {
+    display: flex;
+}
+.input-promo button {
+    height: 40px; 
+    font-size: 30px; 
+    padding: 0 15px; 
+    margin-left: 10px;
+    border-radius: 0; 
+}
+
+.titulo-compras{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 250px;
+    right: 0;
+    width: fit-content;
+    padding: 50px;
+    text-align: center;
+    margin-right: 200px; 
+}
+
+.importes {
+    font-size: 24px;
+    line-height: 1.5;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    right: 0;
+    width: fit-content;
+    border: 1px solid gray;
+    padding: 50px;
+    text-align: center;
+    margin-right: 200px;
+    }
+    
+.importes img {
+    width: 30px;
+    margin-left: 10px;
+    }
+.importes button {
+    height: 40px;
+    font-size: 18px; 
+    padding: 0 15px; 
+    margin-left: 10px; 
+    border-radius: 10px;
+    }
+
+.importes p {
+    margin-bottom: 15px; 
+    }
+
+.importes a {
+    display: flex; 
+    align-items: center; 
+    }
+    
+.importes a img {
+    margin-right: 10px; 
+    }
+
+.importes div {
+    display: flex;
+    align-items: center;
+    }
+    
+
+
+.pasarela-pago img {
+    width: 50px;
+    margin-left: 10px;
+}
+.rrss-img{
+    width: 30px;
+    height: 30px;
+    flex-direction: row;
+}
+
+footer{
+    border-top: 4px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-inline: 5px;
+    max-height: fit-content;
+    margin-top: 30px;
+}
+
+.twiteer{
+    padding-top: 9px;
+    padding-right: 25px;
+}
+
+.facebook{
+    padding-top: 9px;
+    padding-right: 25px;
+
+}
+
+.linkedin{
+    padding-top: 9px;
+    padding-right: 25px;
+
+}
+
+.instagram{
+    padding-top: 9px;
+    padding-right: 25px;
+
+}
+
+.texto {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-barra {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 5%;
+    }
+
+    .navlinks {
+        margin-left: 0;
+        padding-top: 20px;
+    }
+
+    .header-barra .buscador-nav {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .iconos-header {
+        margin-left: 0;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .iconos-header img {
+        margin: 0 10px;
+    }
+
+    .titulo-carrito {
+        padding-left: 5%;
+        font-size: 30px;
+    }
+
+    .imagenes {
+        padding-left: 5%;
+    }
+
+    .nombre-zapatillas {
+        width: 100%;
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .importes, .promo-code {
+        position: static;
+        width: 100%;
+        padding: 20px 5%;
+        margin-top: 20px;
+    }
+
+    .importes button, .input-promo button {
+        font-size: 14px;
+    }
+
+    .rrss-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iconos {
+        margin-top: 20px;
+    }
+
+    .texto {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .iconos-header img {
+        height: 40px;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .importes {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media only screen and (max-width: 1768px) {
+    .contenedor {
+        flex-direction: row;
+    }
+
+    .importes {
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
